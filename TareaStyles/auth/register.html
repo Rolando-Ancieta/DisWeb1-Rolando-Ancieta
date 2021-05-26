@@ -4,19 +4,25 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" type="text/css" href="styles.css">
-    <link rel="stylesheet" type="text/css" href="styles/forms.css">
+    <link rel="stylesheet" type="text/css" href="../styles.css">
+    <link rel="stylesheet" type="text/css" href="../styles/forms.css">
     <title>Document</title>
 </head>
-<body class="body2">
+<body>
     <nav class="topnav">
-        <a href="index.html">Inicio</a>
-        <a href="noticias.html">Noticias</a>
-        <a href="productos.html">Productos</a>
-        <a href="catalogo.html">Catálogo</a>
-        <a class="active" href="contactos.html">Contactos</a>
+        <div class="align">
+            <a href="../index.html">Inicio</a>
+            <a href="../noticias.html">Noticias</a>
+            <a href="../productos.html">Productos</a>
+            <a href="../catalogo.html">Catálogo</a>
+            <a href="../contactos.html">Contactos</a>   
+        </div>
+        <div class="align2">
+            <a href="login.html" >login</a>
+            <a href="#" class="active">Register</a>
+        </div>
     </nav>
-    <h2 style="color: rgb(61, 24, 7);" align="center">Ingrese sus Datos</h2>
+    <h3 style="text-align: center; color: rgb(31, 31, 114) ;">Registrarse</h3>
     <div class="div2">
         <form action="">
             <label for="fname">Nombre</label>
@@ -28,16 +34,16 @@
             <label for="e-mail">E-mail</label>
             <input type="text" id="email" placeholder="Ingrese su Correo Electrónico">
             
-            <label for="country">País</label>
-            <select name="country" id="country" class="select">
-                <option value="">Bolivia</option>
-                <option value="">Argentina </option>
-                <option value="">Brazil</option>
-                <option value="">Colombia</option>
-                <option value="">Chile</option>
-            </select>
+            <label for="usuario">Nombre de Usuario</label>
+            <input type="text" placeholder="Ingrese su nombre de usuario">
 
-            <label for="city">Ciudad</label>
+            <label for="pass">Contraseña</label>
+            <input type="text" placeholder="Ingrese su contraseña">
+  
+            <label for="pass">Confirmar Contraseña</label>
+            <input type="password" placeholder="Confirme su contraseña">
+
+            <label for="city">Departamento</label>
             <select name="city" id="city" class="select">
                 <option value="">Cochabamba</option>
                 <option value="">La Paz </option>
@@ -49,8 +55,8 @@
                 <option value="">Sucre</option>
                 <option value="">Tarija</option>
             </select>
-            
-            <input type="submit" value="ENVIAR DATOS">
+
+            <input type="submit" value="REGISTRARSE">
         </form>
     </div>
 </body>

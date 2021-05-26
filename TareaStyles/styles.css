@@ -22,17 +22,35 @@ body {
     font-size:  17px ;
 }
 
-.topnav  a:hover {
-    background-color :  #ddd ;
+.align {
+    float: left;
+    padding: 0px 10px;
+}
+.align2 {
+    float: right;
+    padding: 0px 10px;
+}
+.topnav a:hover {
+    background-color: #ddd;
     color: black;
 }
-
-.topnav  a.active {
-    background-color:  #011e9c ;
+.topnav a.active {
+    background-color: #070f7c;
 }
-
-.title1 {
+.title {
+    max-width: 35%;
+    background-color: #004ea7;
     text-align: center;
-    color: rgb(59, 0, 94);
-    font-family:cursive;    
+    padding: 8px 12px;
+    border: 0px solid rgb(5, 103, 231);
+    border-radius: 15px;
+    margin: 0 auto;
+}
+.title:hover {
+    background-color: rgb(104, 160, 233);
+    padding: 5px 10px;
+    border: 5px solid #0c77f1;
+}
+.bg {
+    background-color: #89a6c9;
 }
