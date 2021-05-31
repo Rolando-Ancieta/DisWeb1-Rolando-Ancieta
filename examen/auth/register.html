@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="../styles/styles.css">
+    <link rel="stylesheet" type="text/css" href="../styles/forms.css">
+    <link rel="stylesheet" href="../bootstrap/css/bootstrap.min.css">
+    <title>Document</title>
+</head>
+<body style="background-color: rgb(198, 207, 219)">
+    <nav class="navbar navbar-expand-lg navbar-light bg-secondary">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="../index.html">Trueno Motorstars SRL</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse topnav d-flex justify-content-center" id="navbarSupportedContent" >
+            <ul class="navbar-nav mb-2 mb-g-0">
+              <li class="nav-item">
+                <a class="nav-link" href="../index.html">INICIO</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="../noticias.html">NOTICIAS</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="../productos.html">PRODUCTOS</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="../contactos.html">CONTACTOS</a>
+              </li>
+            </ul>
+          </div>
+          <div class="collapse navbar-collapse topnav align2 d-flex justify-content-end" id="navbarSupportedContent" >
+            <ul class="navbar-nav mb-2 mb-g-0">
+              <li class="nav-item">
+                <a class="nav-link" href="login.html">INICIAR SESIÓN</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">REGISTRARSE</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav><br>
+    <h3 style="text-align: center; color: rgb(31, 31, 114) ;">Registrarse</h3>
+    <div class="div3">
+        <form action="">
+            <label for="fname">Nombre</label>
+            <input type="text" id="name" name="firstname" placeholder="Ingrese su nombre" required>
+
+            <label for="lname">Apellido</label>
+            <input type="text" id="lastname" placeholder="Ingrese su Apellido" required>
+
+            <label for="e-mail">E-mail</label>
+            <input type="email" id="email" placeholder="Ingrese su Correo Electrónico" required>
+            
+            <label for="usuario">Nombre de Usuario</label>
+            <input type="text" placeholder="Ingrese su nombre de usuario" required>
+
+            <label for="pass">Contraseña</label>
+            <input type="password" placeholder="Ingrese su contraseña" required>
+  
+            <label for="pass">Confirmar Contraseña</label>
+            <input type="password" placeholder="Confirme su contraseña" required>
+
+            <label for="city">Departamento</label>
+            <select name="text" id="city" class="select">
+                <option value="">Cochabamba</option>
+                <option value="">La Paz </option>
+                <option value="">Santa Cruz</option>
+                <option value="">Pando</option>
+                <option value="">Beni</option>
+                <option value="">Oruro</option>
+                <option value="">Potosi</option>
+                <option value="">Sucre</option>
+                <option value="">Tarija</option>
+            </select>
+
+            <input type="submit" value="REGISTRARSE">
+        </form>
+    </div>
+</body>
+</html>

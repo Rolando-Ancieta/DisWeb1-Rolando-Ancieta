@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="styles/styles.css">
+    <link rel="stylesheet" type="text/css" href="styles/forms.css">
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+    <title>Document</title>
+</head>
+<body style="background-color: rgb(198, 207, 219)">
+    <nav class="navbar navbar-expand-lg navbar-light bg-secondary">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="index.html">Trueno Motorstars SRL</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse topnav d-flex justify-content-center" id="navbarSupportedContent" >
+            <ul class="navbar-nav mb-2 mb-g-0">
+              <li class="nav-item">
+                <a class="nav-link" href="index.html">INICIO</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="noticias.html">NOTICIAS</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="productos.html">PRODUCTOS</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="contactos.html">CONTACTOS</a>
+              </li>
+            </ul>
+          </div>
+          <div class="collapse navbar-collapse align2 d-flex justify-content-end" id="navbarSupportedContent" >
+            <ul class="navbar-nav mb-2 mb-g-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="auth/login.html">INICIAR SESIÓN</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="auth/register.html">REGISTRARSE</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav><br>
+    <div class="barra barra-lateral">
+        <ul>
+            <p align="center" ><b>Ubicanos en nuestras diferentes sucursales:</b></p><br>
+            <li><b>Cochabamba:</b>Calle Moxos esquina 6 de Agosto No.123</li><br>
+            <li><b>Santa Cruz:</b> Av.Virgen de Cotoca No.452</li><br>
+            <li><b>La Paz:</b> Av.Sopocachi esquina Bolivar No.093 </li><br>
+            <p>
+                Contactos: <br>
+                <img src="imagenes/telefono.png" width="15"> 4-4388034
+                <img src="imagenes/whatts.jpg" width="20"> 79744026
+            </p>
+            <p align="center"><em><b> También estamos en las redes sociales:</em></b></p>
+            <p align="center" >
+                <a href="https://www.facebook.com/trueno.motorstar"><img src="imagenes/logo-facebook.png" width="60px"></a>
+                <a href="https://www.twitter.com/"><img src="imagenes/Twitter-Logo.png" width="50px"></a>
+            </p>
+        </ul>
+
+    </div>
+    <h5 style="color: rgb(61, 24, 7);" align="center">Podemos ayudarle :) <br>Complete el formulario y nos pondremos en contacto lo antes posible.</h5>
+    <div class="div2">
+        <form action="">
+            <label for="fname">Nombre</label>
+            <input type="text" id="name" name="firstname" placeholder="Ingrese su nombre" required>
+
+            <label for="lname">Apellidos</label>
+            <input type="text" id="lastname" placeholder="Ingrese su Apellido" required>
+
+            <label for="e-mail">E-mail</label>
+            <input type="email" id="email" placeholder="Ingrese su Correo Electrónico" required>
+            
+            <label for="city">Ciudad</label>
+            <select name="city" id="city" class="select">
+                <option value="">Cochabamba</option>
+                <option value="">La Paz </option>
+                <option value="">Santa Cruz</option>
+                <option value="">Pando</option>
+                <option value="">Beni</option>
+                <option value="">Oruro</option>
+                <option value="">Potosi</option>
+                <option value="">Sucre</option>
+                <option value="">Tarija</option>
+            </select>
+
+            <label for="msj">Mensaje</label><br>
+            <textarea type="texto" id="msj" placeholder="Escribe aquí tu mensaje o comentarios" rows="3" cols="70"></textarea>
+
+            <input type="submit" value="ENVIAR DATOS">
+        </form>
+    </div>
+</body>
+</html>

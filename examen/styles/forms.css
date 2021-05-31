@@ -1,4 +1,4 @@
-input[type=text], input[type=password], select {
+input[type=text], input[type=password],input[type=email], select {
     width: 100%;
     padding: 12px 20px;
     margin: 8px 0;
@@ -22,7 +22,7 @@ input[type=submit]:hover {
 }
 
 .div2 {
-    margin: 0 auto;
+    margin: 2% 8%;
     background-color: #b4b4b4;
     padding: 20px;
     border-radius: 5px;

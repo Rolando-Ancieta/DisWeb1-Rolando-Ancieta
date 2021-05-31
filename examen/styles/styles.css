@@ -2,15 +2,14 @@ body {
     margin :  0 ;
     font-family : Arial , Helvetica , sans-serif;
 }
-
 .body2 {
     background-image: url(imagenes/Cielo-Celeste.jpg); background-size: 100% ;
 }
 
 .topnav {
     overflow: hidden;
-    background-color: rgb(9, 0, 61) ;
-    height :  45px ;
+    height : 50px ;
+    padding: 0 15%;
 }
 
 .topnav  a {
@@ -21,7 +20,6 @@ body {
     text-decoration : none;
     font-size:  17px ;
 }
-
 .align {
     float: left;
     padding: 0px 10px;
@@ -34,7 +32,7 @@ body {
     background-color: #ddd;
     color: black;
 }
-.topnav a.active {
+.topnav ul li a.active {
     background-color: #070f7c;
 }
 .title {
@@ -54,13 +52,22 @@ body {
 .bg {
     background-color: #89a6c9;
 }
-.contenido {
-    float: left;
-    width: 65%;
+.barra-lateral {
+    padding-top: 10%;
+    float: right;
+    width: 35%;
 }
-.cuerpo {
-    max-width: 1100px;
-    padding: 20px;
-    margin-left: auto;
-    margin-right: auto;
+.prod1{
+    padding: auto;
+    float: left;
+    width: 50%;
+}
+.prod2 {
+    padding: auto;
+    float: right;
+    width: 50%;
+}
+li img{
+    width: 90%;
+    height: 400px;
 }
